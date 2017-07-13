@@ -143,7 +143,7 @@ fn find_config_file() -> Result<PathBuf> {
             }
         }
     }
-    Err(Error::from("Could not find .calm.yml"))
+    Err(Error::from("Could not find .calm/calm.yml"))
 }
 
 impl RuntimeConfig {
